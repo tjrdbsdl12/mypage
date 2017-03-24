@@ -14,15 +14,25 @@ body {
     padding: 0;
     
 }
-.nav {
-  background-color: #d8e1eb;
-  border-bottom: 1px solid #466995;
-  overflow-y: auto;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 10000;
+ .nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px 0;
+  background-color: #333;
+  position :fixed;
+  width: 960px;
+}
+
+
+.nav li {
+  color: #fff;
+  display: inline;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  margin-right: 25px;
+  text-transform: uppercase; 
+  text-align: center;
 }
 
 .category {
@@ -31,9 +41,12 @@ body {
 }
 
 .title {
-    position: relative;
-    left : 10px;
-}
-}
     
+}
+
+ul div.title {
+  float: left;
+}
+ul div.category {
+  float: right;
 }
