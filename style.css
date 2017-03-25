@@ -2,11 +2,14 @@
 * {
     box-sizing: border-box;
     text-align: center;
+    bo: center;
 }
 
 .container {
-    width: 960px; 
+    width: 960px;
+    margin: 0 auto;
     
+
 }
 
 body {
@@ -112,4 +115,7 @@ body {
 a:link {
     color: white;
 }
-    
+
+a:visited {
+   color:white;
+}
