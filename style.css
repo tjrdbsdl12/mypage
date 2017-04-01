@@ -20,7 +20,7 @@ body {
  .nav {
   list-style-type: none;
   margin: 0px;
-  padding: 20px 0px;
+  padding: 10px 0px;
   background-color: #333;
   position :fixed;
   width: 960px;
@@ -44,7 +44,9 @@ body {
 
 .title {
    float: left;
-   font-size: 30px;
+   font-size: 50px;
+   padding-left: 30px;
+   padding-bottom: 50px;
 }
 
 .category {
@@ -52,20 +54,6 @@ body {
   font-size: 18px;
 }
 
-.strawberry { 
-    float: left;
-    
-}
-
-.melon {
-    float: left;
-    margin: 0px 30px;
-}
-
-
-.choco {
-    float: right;
-}
 
 
 .header {
@@ -74,12 +62,11 @@ body {
     no-repeat;
     background-size : cover;
     height: 600px ;
-    position: relative;
-    top: 20px;
     z-index: 9999;
 }
 
 .header h1{
+    margin-top: 80px;
     font-size: 100px;
     position: relative;
     top: 0px;
@@ -92,10 +79,11 @@ body {
 }
 
 .section {
-    height: 800px;
+    height: 600px;
     font-size: 18px;
-    position: relative;
-    top: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
 }
 
 .section img {
@@ -109,6 +97,8 @@ body {
     background-color: rgb(0, 0, 0);
     color: white;
     padding: 1px 0px;
+    clear: both;
+    margin: 0 auto;
 }
 
 .description {
@@ -117,8 +107,21 @@ body {
 
 a:link {
     color: white;
+	text-decoration: none;
 }
 
 a:visited {
    color:white;
+}
+
+.strawberry{
+    height: 600px;
+}
+
+.melon {
+    height: 600px;
+}
+
+.choco{
+    height: 600px;
 }
